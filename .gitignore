@@ -1,0 +1,28 @@
+# Large model weights (DO NOT COMMIT)
+models/**/*.ckpt
+models/**/*.safetensors
+models/**/*.bin
+models/**/.cache/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Logs & runtime files
+logs/
+*.log
+*.csv
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
